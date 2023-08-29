@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pitbull{
+    width: 100%;
+    height: 100vh;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+
+    background-color: white;
+}
+.top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 102, 127);
+    border: 1px solid rgb(251, 102, 127);
+    border-radius: 0px 0px 0px 50%;
+}
+.top img{
+    width: 30%;
+    
+}
+.botton{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}

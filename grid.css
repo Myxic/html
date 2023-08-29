@@ -1,0 +1,29 @@
+h1,
+h3{
+    text-align: center;
+    width: 100%;
+}
+
+.secondDiv
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+
+.pic
+{
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+}
+.pic img
+{
+    width: 100%;
+}
+
+form
+{
+    width: 100%;
+    margin: 30px auto;
+}
