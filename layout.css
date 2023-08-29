@@ -7,7 +7,7 @@
 .pitbull{
     width: 100%;
     height: 100vh;
-    background-color: gold;
+    background-color: purple;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@
     align-items: center;
     background-color: rgb(251, 102, 127);
     border: 1px solid rgb(251, 102, 127);
-    border-radius: 0px 0px 0px 50%;
+    border-radius: 0px 50% 0px 50%;
 }
 .top img{
     width: 30%;
@@ -37,4 +37,13 @@
     width: 100%;
     height: 50%;
     background-color: white;
+    padding: 30px 15px 30px 15px;
+}
+h5{
+    padding-bottom: 20px;
+}
+
+.name{
+    display:flex;
+    justify-content: space-between;
 }
